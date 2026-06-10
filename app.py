@@ -158,7 +158,8 @@ with st.expander("🔍 Preguntas guia para encontrar tu insight"):
     st.markdown("""
 **Juega con los filtros del sidebar mientras te haces estas preguntas:**
 
-1. **Region menos rentable.** Deja solo una region a la vez en el filtro.
+1. **Region menos rentable.** Deja solo una region a la vez en el filtro. 
+
 ¿Cual tiene el margen mas bajo? ¿Por que crees que sea?
 
 2. **Categoria problema.** ¿Hay alguna categoria cuyo margen sea sospechosamente bajo
