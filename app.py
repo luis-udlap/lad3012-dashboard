@@ -33,9 +33,10 @@ TU_ID     = "178061"
 # Despues vuelves a GitHub, editas esta linea, y haces commit.
 # Streamlit Cloud actualiza tu dashboard solo en 30 segundos.
 # ============================================================
-TU_INSIGHT = """
-Aun no he escrito mi insight. Lo agregare despues de explorar
-los graficos y filtros de mi dashboard.
+TU_INSIGHT = 
+Descubrí que Furniture vende casi $580,000, pero en lugar de generar ganancia está perdiendo $34,742, con un margen nergativo de -6.0%.
+
+Recomiendo analizar los productos y órdenes con descuentos o costos más altos en Furniture para corregirlos y convertir esa categoría en rentable.
 """
 
 # ============================================================
