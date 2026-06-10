@@ -33,11 +33,20 @@ TU_ID     = "178061"
 # Despues vuelves a GitHub, editas esta linea, y haces commit.
 # Streamlit Cloud actualiza tu dashboard solo en 30 segundos.
 # ============================================================
-TU_INSIGHT = 
-Descubrí que Furniture vende casi $580,000, pero en lugar de generar ganancia está perdiendo $34,742, con un margen nergativo de -6.0%.
+TU_INSIGHT = """
+1. Descubri que la categoria Furniture genero ventas por $579,900, pero tuvo una perdida de $34,742 y un margen negativo de -6.0%.
+Recomiendo revisar y limitar los descuentos o costos de envio en Furniture para dejar de perder dinero y acercar el margen al benchmark de 12%.
 
-Recomiendo analizar los productos y órdenes con descuentos o costos más altos en Furniture para corregirlos y convertir esa categoría en rentable.
+2. Descubri que Technology vendio $547,025 y genero $51,593 de ganancia, siendo la categoria con mejor rentabilidad del dashboard con un margen de 9.4%.
+Recomiendo impulsar mas los productos de Technology con campanas y prioridad comercial para aumentar la ganancia total sin depender solo del volumen de ventas.
+
+3. Descubri que Office Supplies vendio aproximadamente $649,568, mas que Technology, pero genero solo $38,155 de ganancia, menos que los $51,593 de Technology.
+Recomiendo revisar precios y descuentos en Office Supplies para mejorar su margen y convertir su alto volumen de ventas en mayor utilidad.
+
+4. Descubri que el negocio completo vendio $1,776,494, pero solo genero $55,006 de ganancia, dejando un margen general de apenas 3.1%, muy por debajo del benchmark de 12%.
+Recomiendo priorizar las categorias mas rentables y corregir las perdidas de Furniture para elevar el margen general del negocio.
 """
+
 
 # ============================================================
 # CARGAR DATOS (con cache para velocidad)
@@ -159,7 +168,7 @@ with st.expander("🔍 Preguntas guia para encontrar tu insight"):
 **Juega con los filtros del sidebar mientras te haces estas preguntas:**
 
 1. **Region menos rentable.** Deja solo una region a la vez en el filtro. 
-
+¿Cual tiene el margen mas bajo? ¿Por que crees que sea?
 
 
 2. **Categoria problema.** ¿Hay alguna categoria cuyo margen sea sospechosamente bajo
