@@ -160,7 +160,7 @@ with st.expander("🔍 Preguntas guia para encontrar tu insight"):
 
 1. **Region menos rentable.** Deja solo una region a la vez en el filtro. 
 
-¿Cual tiene el margen mas bajo? ¿Por que crees que sea?
+
 
 2. **Categoria problema.** ¿Hay alguna categoria cuyo margen sea sospechosamente bajo
 incluso cuando todas las regiones estan activas? ¿Que decision tomarias como gerente?
